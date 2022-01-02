@@ -14,5 +14,4 @@ output:
   postcards::trestles
 ---
  
-Check out my first book here is a <a href="
-leo-biography.netlify.app">here</a>
+Check out my first book here is a <a href="https://leo-biography.netlify.app">here</a>
