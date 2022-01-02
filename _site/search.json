@@ -2,11 +2,10 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "title": "Sigríður Björndotter",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-01-02T20:18:14+00:00"
+      "contents": "\n\n          \n      \n      leo-lurcher\n      \n      \n      Home\n      About\n      ☰\n      \n      \n      \n        \n          Sigríður Björndotter\n          \n            \n                \n                  \n                    Resume\n                  \n                \n              \n                            \n                \n                  \n                    Blog\n                  \n                \n              \n                            \n                \n                  \n                    SoundCloud\n                  \n                \n              \n                            \n                \n                  \n                    Twitter\n                  \n                \n              \n                          \n        \n\n        \n          \n      \n      \n        \n          \n          Bio\n          Sigríður Björndotter is a musician, vocalist, and live entertainment consultant living in Buenos Aires, Argentina. Her writing has appeared in Rolling Stone, Billboard, and NME, and she is a frequent contributor to National Public Radio’s All Songs Considered. She has been raising Pembroke Welsh Corgis since the age of six, and she has collected Casio watches since the age of ten.\n          \n          \n          Education\n          INSEAD | Fontainebleau, France\n          M.B.A. | August 2014 - June 2015\n          The Juilliard School | New York, NY\n          B.F.A. in Music Performance | August 2005 - May 2009\n          \n          \n          Experience\n          Freelance | Live Entertainment Consultant | August 2018 - Present\n          Cercle | Producer | August 2018 - Present\n          National Public Radio | Producer | May 2015 - July 2018\n          NME Magazine | Editor | July 2014 - July 2016\n          Iceland Symphony Orchestra | Cellist | October 2009 - June 2014\n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Sigríður Björndotter\n            \n            \n              \n                \n                                    \n                    \n                      Resume\n                    \n                  \n                                    \n                    \n                      Blog\n                    \n                  \n                                    \n                    \n                      SoundCloud\n                    \n                  \n                                    \n                    \n                      Twitter\n                    \n                  \n                                  \n              \n            \n            \n              \n              Bio\n              Sigríður Björndotter is a musician, vocalist, and live entertainment consultant living in Buenos Aires, Argentina. Her writing has appeared in Rolling Stone, Billboard, and NME, and she is a frequent contributor to National Public Radio’s All Songs Considered. She has been raising Pembroke Welsh Corgis since the age of six, and she has collected Casio watches since the age of ten.\n              \n              \n              Education\n              INSEAD | Fontainebleau, France\n              M.B.A. | August 2014 - June 2015\n              The Juilliard School | New York, NY\n              B.F.A. in Music Performance | August 2005 - May 2009\n              \n              \n              Experience\n              Freelance | Live Entertainment Consultant | August 2018 - Present\n              Cercle | Producer | August 2018 - Present\n              National Public Radio | Producer | May 2015 - July 2018\n              NME Magazine | Editor | July 2014 - July 2016\n              Iceland Symphony Orchestra | Cellist | October 2009 - June 2014\n              \n            \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2022-01-02T20:35:29+00:00"
     },
     {
       "path": "index.html",
@@ -14,7 +13,7 @@
       "description": "Welcome to the website. I hope you enjoy it!\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-01-02T20:18:15+00:00"
+      "last_modified": "2022-01-02T20:31:31+00:00"
     }
   ],
   "collections": []
