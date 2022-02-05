@@ -21,6 +21,7 @@ url: "https://tertiary-psychotherapy.netlify.app"
 ---
 
 ```{r}
+library(metathis)
 meta() %>%
   meta_description(
     "Leo the lurcher"

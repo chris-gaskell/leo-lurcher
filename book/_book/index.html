@@ -24,7 +24,27 @@
 <link href="https://fonts.googleapis.com/css2?family=DM%20Mono&amp;display=swap" rel="stylesheet">
 <link href="libs/_Bitter-0.4.0/font.css" rel="stylesheet">
 <script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
-<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><link rel="stylesheet" href="bs4_style.css">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, orientation=auto">
+<meta name="description" content="Leo the lurcher">
+<meta name="github-repo" content="chris-gaskell/leo-lurcher/book">
+<meta name="twitter:title" content="Leo the Lurcher">
+<meta name="twitter:description" content="Leo the lurcher">
+<meta name="twitter:url" content="https://leo-biography.netlify.app">
+<meta name="twitter:image" content="https://r4ds.had.co.nz/cover.png">
+<meta name="twitter:image:alt" content="The cover of the R4DS book">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@hadley">
+<meta name="twitter:site" content="@hadley">
+<meta property="og:title" content="Leo the Lurcher">
+<meta property="og:description" content="Leo the lurcher">
+<meta property="og:url" content="https://leo-biography.netlify.app">
+<meta property="og:image" content="https://r4ds.had.co.nz/cover.png">
+<meta property="og:image:alt" content="The cover of the R4DS book">
+<meta property="og:type" content="book">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="Garrett Grolemund">
+<meta property="article:author" content="Hadley Wickham">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><link rel="stylesheet" href="bs4_style.css">
 <link rel="stylesheet" href="font-awesome.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -86,7 +106,7 @@
 <li><p>Click on <strong>Build Book</strong>, then select your output format, or select “All formats” if you’d like to use multiple formats from the same book source files.</p></li>
 </ol>
 <p>Or build the book from the R console:</p>
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">bookdown</span><span class="fu">::</span><span class="fu"><a href="https://pkgs.rstudio.com/bookdown/reference/render_book.html">render_book</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
 <p>To render this example to PDF as a <code><a href="https://pkgs.rstudio.com/bookdown/reference/pdf_book.html">bookdown::pdf_book</a></code>, you’ll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <a href="https://yihui.org/tinytex/" class="uri">https://yihui.org/tinytex/</a>.</p>
 </div>
@@ -95,7 +115,7 @@
 <span class="header-section-number">1.3</span> Preview book<a class="anchor" aria-label="anchor" href="#preview-book"><i class="fas fa-link"></i></a>
 </h2>
 <p>As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in “Preview book,” or from the R console:</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">bookdown</span><span class="fu">::</span><span class="fu"><a href="https://pkgs.rstudio.com/bookdown/reference/serve_book.html">serve_book</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
 </div>
 <div id="test-call-outs" class="section level2" number="1.4">

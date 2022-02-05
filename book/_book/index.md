@@ -20,6 +20,28 @@ always_allow_html: yes
 url: "https://tertiary-psychotherapy.netlify.app"
 ---
 
+
+```r
+library(metathis)
+meta() %>%
+  meta_description(
+    "Leo the lurcher"
+  ) %>% 
+  meta_name("github-repo" = "chris-gaskell/leo-lurcher/book") %>% 
+  meta_viewport() %>% 
+  meta_social(
+    title = "Leo the Lurcher",
+    url = "https://leo-biography.netlify.app",
+    image = "https://r4ds.had.co.nz/cover.png",
+    image_alt = "The cover of the R4DS book",
+    og_type = "book",
+    og_author = c("Garrett Grolemund", "Hadley Wickham"),
+    twitter_card_type = "summary",
+    twitter_creator = "@hadley"
+  )
+```
+
+
 # About
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
