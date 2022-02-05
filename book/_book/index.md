@@ -32,7 +32,7 @@ meta() %>%
   meta_social(
     title = "Leo the Lurcher",
     url = "https://leo-biography.netlify.app",
-    image = "/Users/christophergaskell/Desktop/leo-lurcher/book/nervous_leo.JPG",
+    image = "/Users/christophergaskell/Desktop/leo-lurcher/book/nervous_leo.jpg",
     image_alt = "picture of Leo",
     og_type = "book",
     og_author = c("Chris Gaskell", "Leo de Lurchio"),
