@@ -25,11 +25,11 @@ meta() %>%
   meta_description(
     "Leo the lurcher"
   ) %>% 
-  meta_name("github-repo" = "hadley/r4ds") %>% 
+  meta_name("github-repo" = "chris-gaskell/leo-lurcher/book") %>% 
   meta_viewport() %>% 
   meta_social(
-    title = "R for Data Science",
-    url = "https://r4ds.had.co.nz",
+    title = "Leo the Lurcher",
+    url = "https://leo-biography.netlify.app",
     image = "https://r4ds.had.co.nz/cover.png",
     image_alt = "The cover of the R4DS book",
     og_type = "book",
