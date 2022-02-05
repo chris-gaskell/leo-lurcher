@@ -32,12 +32,12 @@ meta() %>%
   meta_social(
     title = "Leo the Lurcher",
     url = "https://leo-biography.netlify.app",
-    image = "https://r4ds.had.co.nz/cover.png",
-    image_alt = "The cover of the R4DS book",
+    image = "/Users/christophergaskell/Desktop/leo-lurcher/book/nervous_leo.JPG",
+    image_alt = "picture of Leo",
     og_type = "book",
-    og_author = c("Garrett Grolemund", "Hadley Wickham"),
+    og_author = c("Chris Gaskell", "Leo de Lurchio"),
     twitter_card_type = "summary",
-    twitter_creator = "@hadley"
+    twitter_creator = "@cgaskell92"
   )
 ```
 
