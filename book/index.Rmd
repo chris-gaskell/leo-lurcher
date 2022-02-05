@@ -20,6 +20,26 @@ always_allow_html: yes
 url: "https://tertiary-psychotherapy.netlify.app"
 ---
 
+```{r}
+meta() %>%
+  meta_description(
+    "Leo the lurcher"
+  ) %>% 
+  meta_name("github-repo" = "hadley/r4ds") %>% 
+  meta_viewport() %>% 
+  meta_social(
+    title = "R for Data Science",
+    url = "https://r4ds.had.co.nz",
+    image = "https://r4ds.had.co.nz/cover.png",
+    image_alt = "The cover of the R4DS book",
+    og_type = "book",
+    og_author = c("Garrett Grolemund", "Hadley Wickham"),
+    twitter_card_type = "summary",
+    twitter_creator = "@hadley"
+  )
+```
+
+
 # About
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
@@ -63,3 +83,38 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 ```
+
+## test call outs
+
+::: {.rmdnote}
+## This is a note call out
+:::
+
+::: {.rmdcaution}
+This is a caution call out
+:::
+
+::: {.rmdimportant}
+This is a important call out
+:::
+
+::: {.rmdtip}
+This is a caution call out
+:::
+
+::: {.rmdwarning}
+This is a caution call out
+:::
+
+## this is a bit more complicated
+
+This is done using the guidance here:
+https://stackoverflow.com/questions/36293511/creating-custom-blocks-in-rstudios-bookdown/36343616
+
+```{block, type='rmdcomment2'}
+Some text for this block. Some text for this block. Some text for this block. Some text for this block. Some text for this block. Some text for this block.
+```
+
+
+
+

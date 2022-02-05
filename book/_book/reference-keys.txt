@@ -6,6 +6,9 @@ about
 usage
 render-book
 preview-book
+test-call-outs
+this-is-a-note-call-out
+this-is-a-bit-more-complicated
 hello-bookdown
 a-section
 cross

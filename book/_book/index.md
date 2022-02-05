@@ -3,7 +3,7 @@ title: Demo Book
 author:
 - Desiree De Leon
 - Alison Hill
-date: '2022-01-02'
+date: '2022-02-05'
 site: bookdown::bookdown_site
 documentclass: book
 bibliography:
@@ -57,6 +57,41 @@ As you work, you may start a local server to live preview this HTML book. This p
 ```r
 bookdown::serve_book()
 ```
+
+
+
+
+## test call outs
+
+::: {.rmdnote}
+## This is a note call out
+:::
+
+::: {.rmdcaution}
+This is a caution call out
+:::
+
+::: {.rmdimportant}
+This is a important call out
+:::
+
+::: {.rmdtip}
+This is a caution call out
+:::
+
+::: {.rmdwarning}
+This is a caution call out
+:::
+
+## this is a bit more complicated
+
+This is done using the guidance here:
+https://stackoverflow.com/questions/36293511/creating-custom-blocks-in-rstudios-bookdown/36343616
+
+<div class="rmdcomment2">
+<p>Some text for this block. Some text for this block. Some text for this block. Some text for this block. Some text for this block. Some text for this block.</p>
+</div>
+
 
 
 
