@@ -170,9 +170,6 @@
     \AttributeTok{twitter\_card\_type =} \StringTok{"summary"}\NormalTok{,}
     \AttributeTok{twitter\_creator =} \StringTok{"@cgaskell92"}
 \NormalTok{  )}
-\CommentTok{\#\textgreater{} Warning: knitr output format is not HTML. Use}
-\CommentTok{\#\textgreater{} \textasciigrave{}include\_meta()\textasciigrave{} to ensure that the \textless{}meta\textgreater{} tags are properly}
-\CommentTok{\#\textgreater{} included in the \textless{}head\textgreater{} output (if possible).}
 \end{Highlighting}
 \end{Shaded}
 
@@ -187,8 +184,6 @@
 \chapter*{About This Book}\label{about-this-book}}
 \addcontentsline{toc}{chapter}{About This Book}
 
-\includegraphics[width=5.11in]{/Users/christophergaskell/Desktop/leo-lurcher/book/nervous_leo2}
-
 Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image. Testing out how to wrap text around an image. Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image. Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.
 
 \hypertarget{usage}{%
@@ -196,29 +191,17 @@ Testing out how to wrap text around an image.Testing out how to wrap text around
 
 I recommend that you read this book cover-to-cover.
 
-\begin{pawcomment}
-\hypertarget{raise-a-paw}{%
-\subsubsection*{Raise a paw}\label{raise-a-paw}}
-\addcontentsline{toc}{subsubsection}{Raise a paw}
+Raise a paw
 
 If you have a question. Simply raise a paw.
-\end{pawcomment}
 
-\begin{bonecomment}
-\hypertarget{have-a-treat}{%
-\subsubsection*{Have a treat}\label{have-a-treat}}
-\addcontentsline{toc}{subsubsection}{Have a treat}
+Have a treat
 
 Here is a greatttttt tip!
-\end{bonecomment}
 
-\begin{dogcomment}
-\hypertarget{fancy-a-walk}{%
-\subsubsection*{Fancy a walk}\label{fancy-a-walk}}
-\addcontentsline{toc}{subsubsection}{Fancy a walk}
+Fancy a walk
 
 Here is a task for you
-\end{dogcomment}
 
 \hypertarget{render-book}{%
 \section{Render book}\label{render-book}}
@@ -274,17 +257,9 @@ This is a caution call out
 This is done using the guidance here:
 \url{https://stackoverflow.com/questions/36293511/creating-custom-blocks-in-rstudios-bookdown/36343616}
 
-\begin{rmdcomment2}
-Some text for this block. Some text for this block. Some text for this
-block. Some text for this block. Some text for this block. Some text for
-this block.
-\end{rmdcomment2}
+Some text for this block. Some text for this block. Some text for this block. Some text for this block. Some text for this block. Some text for this block.
 
-\begin{rmdcomment2}
-Some text for this block. Some text for this block. Some text for this
-block. Some text for this block. Some text for this block. Some text for
-this block.
-\end{rmdcomment2}
+Some text for this block. Some text for this block. Some text for this block. Some text for this block. Some text for this block. Some text for this block.
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -361,14 +336,7 @@ See Figure \ref{fig:nice-fig}.
 \end{Highlighting}
 \end{Shaded}
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{02-cross-refs_files/figure-latex/nice-fig-1} 
-
-}
-
-\caption{Here is a nice figure!}\label{fig:nice-fig}
-\end{figure}
+\label{fig:nice-fig}Here is a nice figure!
 
 Don't miss Table \ref{tab:nice-tab}.
 
@@ -381,28 +349,28 @@ Don't miss Table \ref{tab:nice-tab}.
 \end{Highlighting}
 \end{Shaded}
 
-\begin{table}
-
-\caption{\label{tab:nice-tab}Here is a nice table!}
-\centering
-\begin{tabular}[t]{rr}
+\begin{longtable}[]{@{}rr@{}}
+\caption{\label{tab:nice-tab}Here is a nice table!}\tabularnewline
 \toprule
-temperature & pressure\\
+temperature & pressure \\
 \midrule
-0 & 0.0002\\
-20 & 0.0012\\
-40 & 0.0060\\
-60 & 0.0300\\
-80 & 0.0900\\
-\addlinespace
-100 & 0.2700\\
-120 & 0.7500\\
-140 & 1.8500\\
-160 & 4.2000\\
-180 & 8.8000\\
+\endfirsthead
+\toprule
+temperature & pressure \\
+\midrule
+\endhead
+0 & 0.0002 \\
+20 & 0.0012 \\
+40 & 0.0060 \\
+60 & 0.0300 \\
+80 & 0.0900 \\
+100 & 0.2700 \\
+120 & 0.7500 \\
+140 & 1.8500 \\
+160 & 4.2000 \\
+180 & 8.8000 \\
 \bottomrule
-\end{tabular}
-\end{table}
+\end{longtable}
 
 \hypertarget{parts}{%
 \chapter{Parts}\label{parts}}

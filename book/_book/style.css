@@ -30,4 +30,61 @@ pre code {
  }
  
  
+ .pawcomment {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #de3535;
+  position:relative;
+}
+
+.pawcomment:before {
+    content: "\f1b0";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
  
+.dogcomment {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #35de35;
+  position:relative;
+}
+
+.dogcomment:before {
+    content: "\f6d3";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+ 
+ .bonecomment {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #35dede;
+  position:relative;
+}
+
+.bonecomment:before {
+    content: "\f5d7";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+ 
+ .infobox {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: lightgray 5px center/3em no-repeat;
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+.caution {
+  background-image: url("../images/caution.png");
+}

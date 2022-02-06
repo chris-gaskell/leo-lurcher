@@ -1,10 +1,11 @@
 ---
 title: 'All Bark and no Bite'
 subtitle: 'An insight into the anxiously aggressive pupper'
+keywords: "testing" 
 author:
 - Leo de Lurchio
 - Dr. Chris Gaskell
-date: '2022-02-05'
+date: '2022-02-06'
 site: bookdown::bookdown_site
 documentclass: book
 bibliography:
@@ -42,25 +43,49 @@ meta() %>%
 ```
 
 
-# About {-}
+
+```r
+library(metathis)
+knitr::write_bib(c(.packages(), "bookdown"), "packages.bib")
+```
+
+
+
+# About This Book {-}
 
 <div style= "float:right;position: relative; top: 0px;">
-<img src="/Users/christophergaskell/Desktop/leo-lurcher/book/nervous_leo2.jpeg" width="255" />
+<img src="/Users/christophergaskell/Desktop/leo-lurcher/book/images/nervous_leo.jpeg" width="184" />
 
 </div>
 
 Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image. Testing out how to wrap text around an image. Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image. Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.
 
-
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
+# About This Book 2 {-}
 
 ## Usage 
 
-Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
+I recommend that you read this book cover-to-cover.
 
-Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
+<div class="pawcomment">
+<h3 class="unnumbered" id="raise-a-paw">Raise a paw</h3>
+<p>If you have a question. Simply raise a paw.</p>
+</div>
 
-The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
+<div class="bonecomment">
+<h3 class="unnumbered" id="have-a-treat">Have a treat</h3>
+<p>Here is a greatttttt tip!</p>
+</div>
+
+<div class="dogcomment">
+<h3 class="unnumbered" id="fancy-a-walk">Fancy a walk</h3>
+<p>Here is a task for you</p>
+</div>
+
+::: {.infobox .caution}
+**Note**: This book is published by [Chapman & Hall/CRC](https://www.routledge.com/p/book/9780367563837). The online version of this book is free to read here (thanks to Chapman & Hall/CRC), and licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). If you have any feedback, please feel free to [file an issue on GitHub](https://github.com/yihui/rmarkdown-cookbook/issues/new). Thank you!
+:::
+<p style="text-align: center;"><a href="https://www.routledge.com/p/book/9780367563837"><img src="images/cover.png" alt="The R Markdown cookbook cover" /></a></p>
+
 
 ## Render book
 
@@ -122,6 +147,10 @@ https://stackoverflow.com/questions/36293511/creating-custom-blocks-in-rstudios-
 <p>Some text for this block. Some text for this block. Some text for this block. Some text for this block. Some text for this block. Some text for this block.</p>
 </div>
 
+<div class="rmdcomment2">
+<p>Some text for this block. Some text for this block. Some text for this block. Some text for this block. Some text for this block. Some text for this block.</p>
+</div>
+
 
 ```r
 #knitr::include_graphics("https://imgs.xkcd.com/comics/correlation.png")
@@ -130,10 +159,15 @@ https://stackoverflow.com/questions/36293511/creating-custom-blocks-in-rstudios-
 
 Testing out how to wrap text around an image. Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.
 
+\newpage
+
+Testing out how to wrap text around an image. Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.
 
 
-
-
+::: {.flushright data-latex=""}
+Yihui Xie  
+Elkhorn, Nebraska
+:::
 
 
 
