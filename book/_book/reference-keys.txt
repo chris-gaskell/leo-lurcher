@@ -2,7 +2,6 @@ fig:nice-fig
 tab:nice-tab
 eq:binom
 thm:tri
-usage
 render-book
 preview-book
 test-call-outs
