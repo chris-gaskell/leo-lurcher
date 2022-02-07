@@ -13,13 +13,19 @@ bibliography:
 - packages.bib
 link-citations: true
 biblio-style: apalike
-description: This is a book about me, Leo
+description: This is a book about me, Leo the lurcher
 favicon: "test.ico"
-cover-image: "https://vetstreet.brightspotcdn.com/dims4/default/630978f/2147483647/crop/0x0%2B0%2B0/resize/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fe0%2F88adb0c81f11e09b940050568d6ceb%2Ffile%2FLurcher-3-AP-645km081611.jpg"
+cover-image: "https://github.com/chris-gaskell/leo-lurcher/blob/main/book/images/nervous_leo.jpeg?raw=true"
 github-repo: "chris-gaskell/leo-lurcher/book"
 always_allow_html: yes
-url: "https://leo-biography.app"
+url: "https://leo-biography.nerlify.app"
 ---
+
+
+```r
+library(metathis)
+knitr::write_bib(c(.packages(), "bookdown"), "packages.bib")
+```
 
 
 ```r
@@ -33,7 +39,7 @@ meta() %>%
   meta_social(
     title = "Leo the Lurcher",
     url = "https://leo-biography.netlify.app",
-    image = "https://github.com/chris-gaskell/leo-lurcher/blob/main/book/nervous_leo.png?raw=true",
+    image = "https://github.com/chris-gaskell/leo-lurcher/blob/main/book/images/nervous_leo.jpeg?raw=true",
     image_alt = "picture of Leo",
     og_type = "book",
     og_author = c("Chris Gaskell", "Leo de Lurchio"),
@@ -42,29 +48,31 @@ meta() %>%
   )
 ```
 
-
-
-```r
-library(metathis)
-knitr::write_bib(c(.packages(), "bookdown"), "packages.bib")
-```
-
-
-
-# About This Book {-}
+# Leo the Lurcher {-}
 
 <div style= "float:right;position: relative; top: 0px;">
-<img src="/Users/christophergaskell/Desktop/leo-lurcher/book/images/nervous_leo.jpeg" width="184" />
+<img src="images/nervous_leo.jpeg" width="184" />
 
 </div>
 
-Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image. Testing out how to wrap text around an image. Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image. Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.
+Thank you for buying my first book!
 
-# About This Book 2 {-}
+My name is Leo. I'm a 4 year old lurcher pup. This book is all about what it means when I barks.
 
-## Usage 
+Testing some more text alignment, Testing some more text alignment, Testing some more text alignment, Testing some more text alignment, Testing some more text alignment, Testing some more text alignment, Testing some more text alignment,
+
+::: {.infobox .caution}
+**Note**: This book has yet to be picked up by a major publisher. The online version of this book is free to read here, and licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). If you have any feedback, please feel free to [file an issue on GitHub](https://github.com/chris-gaskell/leo-lurcher/book). Thank you!
+:::
+before you think about leaving... let me leave you with a little message.
+<p style="text-align: center;"><a href="https://www.routledge.com/p/book/9780367563837"><img src="https://media4.giphy.com/media/u5cc08LvthuBa7HwEU/200.gif?cid=ecf05e47j7uqkv61hg634eie1zl04d868nsrg3sx87tje91l&rid=200.gif&ct=g" alt="please don't go" /></a></p>
+
+
+# Usage {-}
 
 I recommend that you read this book cover-to-cover.
+
+Here are some features of the book
 
 <div class="pawcomment">
 <h3 class="unnumbered" id="raise-a-paw">Raise a paw</h3>
@@ -81,10 +89,6 @@ I recommend that you read this book cover-to-cover.
 <p>Here is a task for you</p>
 </div>
 
-::: {.infobox .caution}
-**Note**: This book is published by [Chapman & Hall/CRC](https://www.routledge.com/p/book/9780367563837). The online version of this book is free to read here (thanks to Chapman & Hall/CRC), and licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). If you have any feedback, please feel free to [file an issue on GitHub](https://github.com/yihui/rmarkdown-cookbook/issues/new). Thank you!
-:::
-<p style="text-align: center;"><a href="https://www.routledge.com/p/book/9780367563837"><img src="images/cover.png" alt="The R Markdown cookbook cover" /></a></p>
 
 
 ## Render book
@@ -156,10 +160,6 @@ https://stackoverflow.com/questions/36293511/creating-custom-blocks-in-rstudios-
 #knitr::include_graphics("https://imgs.xkcd.com/comics/correlation.png")
 ```
 
-
-Testing out how to wrap text around an image. Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.
-
-\newpage
 
 Testing out how to wrap text around an image. Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.Testing out how to wrap text around an image.
 

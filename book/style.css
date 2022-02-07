@@ -88,3 +88,7 @@ pre code {
 .caution {
   background-image: url("../images/caution.png");
 }
+
+.flushright {
+  text-align: right;
+}
