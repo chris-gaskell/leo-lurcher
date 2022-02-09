@@ -1,0 +1,122 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+.flushright {
+  text-align: right;
+}
+
+
+
+
+
+
+
+.rmdcomment2 {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #de3535;
+  position:relative;
+}
+
+.rmdcomment2:before {
+    content: "\f075";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+
+ .pawcomment {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #de3535;
+  border: 2px solid black;
+  position:relative;
+}
+
+.pawcomment:before {
+    content: "\f1b0";
+    font-family: FontAwesome;
+    left:0px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+ 
+.dogcomment {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #35de35;
+  border: 2px solid black;
+  position:relative;
+}
+
+.dogcomment:before {
+    content: "\f6d3";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+ 
+ .bonecomment {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #35dede;
+  border: 2px solid black;
+  position:relative;
+}
+
+.bonecomment:before {
+    content: "\f5d7";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+ 
+.warncomment {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: lightgrey;
+  border: 2px solid black;
+  position:relative;
+}
+
+.warncomment:before {
+    content: "\f071";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+
+
+
+
+.infobox {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: lightgray 5px center/3em no-repeat;
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+.caution {
+  background-image: url("../images/caution.png");
+}
